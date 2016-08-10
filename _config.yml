@@ -1,0 +1,42 @@
+# Site settings
+title: Abreu na Web
+description: Um blog sobre tecnologia.
+baseurl: ""
+url: ""
+
+# User settings
+username: Robson Abreu
+user_description: Estudante de Análise e Desenvolvimento de Sistemas, ciclista e sonhador.
+user_title: Studying and Sharing Knowledge 
+email: contatorobsonabreu@gmail.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+disqus_username: lorem_ipsum
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Página Inicial
+    url: /
+  - title: "#TAGS"
+    url: /tags
+  - title: Sobre Mim
+    url: /about
+  # - title: Projetos
+  #   url: /projetos 
+  
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

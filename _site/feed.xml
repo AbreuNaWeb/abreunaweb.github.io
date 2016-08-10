@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abreu na Web</title>
+    <description>Um blog sobre tecnologia.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 10 Aug 2016 16:20:39 -0300</pubDate>
+    <lastBuildDate>Wed, 10 Aug 2016 16:20:39 -0300</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Tolinbook | Java SE</title>
+        <description>&lt;p&gt;Enquanto eu vou criando a descrição, você ver o código fonte do &lt;a href=&quot;https://github.com/AbreuNaWeb/tolinbook&quot;&gt;Tolinbook&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 Aug 2015 13:05:03 -0300</pubDate>
+        <link>/tolinbook/</link>
+        <guid isPermaLink="true">/tolinbook/</guid>
+        
+        <category>projetos</category>
+        
+        
+        <category>Projetos</category>
+        
+      </item>
+    
+      <item>
+        <title>PortoAlegre+ | ASP NET MVC 5</title>
+        <description>&lt;p&gt;Enquanto eu vou criando a descrição, você ver o código fonte do &lt;a href=&quot;https://github.com/AbreuNaWeb/porto-alegre-plus&quot;&gt;PortoAlegre+&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 Aug 2015 13:05:03 -0300</pubDate>
+        <link>/porto-alegre-plus/</link>
+        <guid isPermaLink="true">/porto-alegre-plus/</guid>
+        
+        <category>projetos</category>
+        
+        
+        <category>Projetos</category>
+        
+      </item>
+    
+      <item>
+        <title>Code Running | Construct2</title>
+        <description>&lt;p&gt;Enquanto eu vou criando a descrição, você pode ir jogando o &lt;a href=&quot;http://www.coderunning.com.br/&quot;&gt;Code Running&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 10 Aug 2015 12:56:03 -0300</pubDate>
+        <link>/code-running/</link>
+        <guid isPermaLink="true">/code-running/</guid>
+        
+        <category>projetos</category>
+        
+        
+        <category>Projetos</category>
+        
+      </item>
+    
+  </channel>
+</rss>
