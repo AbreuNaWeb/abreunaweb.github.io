@@ -2,15 +2,15 @@
 title: Abreu na Web
 description: Um blog sobre tecnologia.
 baseurl: ""
-url: ""
+url: "http://abreunaweb.com"
 
 # User settings
 username: Robson Abreu
 user_description: Estudante de Análise e Desenvolvimento de Sistemas, ciclista e sonhador.
 user_title: Studying and Sharing Knowledge 
 email: contatorobsonabreu@gmail.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
+twitter_username: AbreuNaWeb
+github_username:  AbreuNaWeb
 gplus_username:  lorem_ipsum
 disqus_username: lorem_ipsum
 
