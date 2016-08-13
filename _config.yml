@@ -19,6 +19,11 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title/
 
+gems:
+  - jekyll-paginate
+paginate: 2
+paginate_path: posts/page:num/
+
 # html minify
 compress_html:
   clippings: all
