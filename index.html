@@ -33,57 +33,6 @@ layout: default
     {% endfor %}
 </main>
 
-<style>
-ul.pagination {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-}
-
-ul.pagination li {display: inline;}
-
-ul.pagination li a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-size: 21px;
-}
-
-ul.pagination li a.active {
-    background-color: #548B54;
-    color: white;
-}
-
-ul.pagination li a:hover:not(.active) {background-color: #ddd;}
-
-.wrapper {
-  height: 100%;
-  min-height: 100%;
-
-  /* habilita o flex nos filhos diretos */
-  display: -ms-flex;
-  display: -webkit-flex;
-  display: flex;
-
-  /* centraliza na vertical */
-  -ms-align-items: center;
-  -webkit-align-items: center;
-  align-items: center;
-
-  /* centraliza na horizontal */
-  -ms-justify-content: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-}
-
-.wrapper div {
-  padding: 40px;
-}
-
-
-</style>
-
 <div class="wrapper">
 <div>
 {% if paginator.total_pages > 1 %}
