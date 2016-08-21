@@ -12,7 +12,22 @@ layout: default
                     {{ post.date | date: "%d" }}
                 </span>
                 <span class="month-year">
-                    {{ post.date | date: "%B %Y" }}
+                    {% assign m = post.date | date: "%-m" %}
+                    {% case m %}
+                    {% when '1' %}Janeiro
+                    {% when '2' %}Fevereiro
+                    {% when '3' %}Março
+                    {% when '4' %}Abril
+                    {% when '5' %}Maio
+                    {% when '6' %}Junho
+                    {% when '7' %}Julho
+                    {% when '8' %}Agosto
+                    {% when '9' %}Setembro
+                    {% when '10' %}Outubro
+                    {% when '11' %}Novembro
+                    {% when '12' %}Dezembro
+                    {% endcase %}
+                    {{ post.date | date: "%Y" }}
                 </span>
             </time>
         </a>
@@ -34,18 +49,18 @@ layout: default
 </main>
 
 <div class="wrapper">
-<div>
-{% if paginator.total_pages > 1 %}
-<ul class="pagination">
-  {% if paginator.previous_page %}
-    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">«</a></li>
-  {% endif %}
-    <li><a class="active"> {{ paginator.page }} </a></li>
-  {% if paginator.next_page %}
-    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">»</a></li>
-  {% endif %}
-</ul>
-{% endif %}
-</div>
+    <div>
+        {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+            {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">«</a></li>
+            {% endif %}
+            <li><a class="active"> {{ paginator.page }} </a></li>
+            {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">»</a></li>
+            {% endif %}
+        </ul>
+        {% endif %}
+    </div>
 </div>
 

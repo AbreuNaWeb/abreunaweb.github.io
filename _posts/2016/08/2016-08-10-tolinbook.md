@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tolinbook | Java SE"
-date: 2015-08-10 16:05:03
+date: 2016-08-10 16:05:03
 image: '/assets/img/'
 description: 'Desenvolvimento de Aplicação Desktop | JAVA SE + JTattoo (Swing) + MySQL'
 tags:
@@ -12,13 +12,13 @@ categories:
 twitter_text: 'Conheça o Tolinbook!'
 ---
 
-Tolinbook é um sistema para gerenciamento de biblioteca. Esse eu desenvolvi por conta própria, afinal, não podemos ficar parados. Bem, o sistema tem dois tipos de acesso: o administrador (bibliotecário) e os usuários comuns.
+**Tolinbook é um sistema para gerenciamento de biblioteca.** Esse eu desenvolvi por conta própria, afinal, não podemos ficar parados. Bem, o sistema tem dois tipos de acesso: o administrador (bibliotecário) e os usuários comuns.
 
 O Tolinbook seria instalado no computadores da própria instituição. Imagine a seguinte situação: você precisa de um livro, logo, precisa saber se a biblioteca tem ele e se há quantidade disponível. Você chega na biblioteca e faz o quê? E é aí que entra o Tolinbook entra nessa história.
 
-"Ah, Robson. Hoje em dia os sistemas são tudo web" **CERTO! Mas e se por algum motivo você estiver sem acesso a internet, sem o seu computador ou celular? Devemos pensar em todas as probabilidades.**
+"Ah, Robson. Hoje em dia os sistemas são tudo web" CERTO! Mas e se por algum motivo você estiver sem acesso a internet, sem o seu computador ou celular? Devemos pensar em todas as probabilidades.
 
-"Se eu for em um computador da biblioteca, vou ter acesso a internet, logo, vou conseguir acessar um sistema web, tornando o Tolinbook inútil". **Os computadores da biblioteca teriam acesso apenas ao sistema, ou seja, tudo que o usuário/aluno pode fazer no computador é usar o Tolinbook.**
+"Se eu for em um computador da biblioteca, vou ter acesso a internet, logo, vou conseguir acessar um sistema web, tornando o Tolinbook inútil". Os computadores da biblioteca teriam acesso apenas ao sistema, ou seja, tudo que o usuário/aluno pode fazer no computador é usar o Tolinbook.
 
 E óbvio, poderia ter versões Web e Mobile.
 
@@ -27,10 +27,10 @@ Entendido? Bora explicar o sistema...
 Bem, a tela de login é única para os dois tipos de usuários. Nela, há um botão de registro.
 
 <figure>
-	<img src="{{site.baseurl}}/assets/img/tolinbook/1.png" alt="Tela de login no Tolinbook">
+	<img src="{{site.baseurl}}/assets/img/2016/08/tolinbook/1.png" alt="Tela de login no Tolinbook">
 </figure>
 
-O seu ID é o seu CPF. Por quê CPF e não matrícula? O Tolinbook pode ser usado por vários tipos de bibliotecas, e "matrícula" nem sempre iria se encaixar no contexto, um exemplo disso são as bibliotecas municipais, que são destinadas a todos cidadões e não apenas "alunos". E cá entre nós, CPF É FÁCIL DE LEMBRAR.
+O seu ID é o seu CPF. Por quê CPF e não matrícula? O Tolinbook pode ser usado por vários tipos de bibliotecas, e "matrícula" nem sempre iria se encaixar no contexto, um exemplo disso são as bibliotecas municipais, que são destinadas a todos cidadões e não apenas "alunos". E cá entre nós, CPF é fácil de lembrar.
 
 Vou começar explicando a tela principal do bibiliotecário(a).
 
@@ -43,7 +43,7 @@ Vou começar explicando a tela principal do bibiliotecário(a).
 + Créditos: adicionar créditos para o usuário (explico mais pra frente).
 
 <figure>
-	<img src="{{site.baseurl}}/assets/img/tolinbook/2.png" alt="Tela inicial do administrador no Tolinbook">
+	<img src="{{site.baseurl}}/assets/img/2016/08/tolinbook/2.png" alt="Tela inicial do administrador no Tolinbook">
 </figure>
 
 Tela principal do usuário:
@@ -54,7 +54,7 @@ Tela principal do usuário:
 + Meu Perfil: editar dados pessoais e ver algumas informações da conta, como créditos e multas.
 
 <figure>
-	<img src="{{site.baseurl}}/assets/img/tolinbook/3.png" alt="Tela inicial do usuário no Tolinbook">
+	<img src="{{site.baseurl}}/assets/img/2016/08/tolinbook/3.png" alt="Tela inicial do usuário no Tolinbook">
 </figure>
  
 Algumas regras: a única forma do usuário pegar um livro emprestado
@@ -70,16 +70,14 @@ Lembra que antes eu disse da tela de créditos? Então... O usuário vai precisa
 
 Bem, acho que não me esqueci de nada. 
 
-Por mais que a aplicação seja em Swing, o visual do Tolinbook é bem "diferentão", isso foi graças ao JTattoo, um pacote Look And Feel.
+Por mais que a aplicação seja em Swing, o visual do Tolinbook é bem "diferentão", isso foi graças ao **JTattoo**, um pacote Look And Feel. Fiz um <a class="externalLink" href="http://abreunaweb.com/mudar-visual-swing-java-com-jtattoo/" target="_blank">post</a> explicando sobre ele.
 
-*Em todo o post, eu citei o Tolinbook com um sentido de comercializar, MAS NÃO, é apenas mais um projeto de estudos, com o objetivo de cada vez aprender (e aprimorar) mais a programação. E mesmo sendo um projeto de estudos, sempre devemos desenvolver uma aplicação pensando no mundo real, no seu ciclo de vida.*
+*Em todo o post, eu citei o Tolinbook com um sentido de comercializar, MAS NÃO, é apenas mais um projeto de estudos, com o objetivo de cada vez aprender (e aprimorar) mais a programação.*
 
-Assim como os meus outros projetos, esse também está <a href="https://github.com/AbreuNaWeb/tolinbook" target="_blank">disponível no GitHub.</a> Baixe, experimente e dê um retorno (é importante).
-
-Conforme eu ir aprendendo mais coisas, vou ir atualizando o sistema. E talvez até saia uma versão Web e Mobile.
+Assim como os meus outros projetos, esse também está disponível no <a class="externalLink" href="https://github.com/AbreuNaWeb/tolinbook" target="_blank">GitHub</a>. Baixe, experimente e dê um retorno (é importante).
 
 Uffa! Chegamos ao fim do post. Agradeço sua atenção. Para ver meus outros projetos, [clique aqui.][tolinbook]
 
-Dúvidas e Feedback, só comentar. Resposta em 48hrs, ou um café pago (com direito a bala de café). Até!
+Dúvidas e feedback, só comentar.
 
 [tolinbook]: http://abreunaweb.com/tags/#projetos

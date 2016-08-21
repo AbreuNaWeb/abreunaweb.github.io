@@ -21,7 +21,7 @@ permalink: /:title/
 
 gems:
   - jekyll-paginate
-paginate: 2
+paginate: 3
 paginate_path: posts/:num/
 
 # html minify
