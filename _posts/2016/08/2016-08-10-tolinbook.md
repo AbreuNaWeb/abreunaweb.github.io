@@ -16,9 +16,9 @@ twitter_text: 'Conheça o Tolinbook!'
 
 O Tolinbook seria instalado no computadores da própria instituição. Imagine a seguinte situação: você precisa de um livro, logo, precisa saber se a biblioteca tem ele e se há quantidade disponível. Você chega na biblioteca e faz o quê? E é aí que entra o Tolinbook entra nessa história.
 
-"Ah, Robson. Hoje em dia os sistemas são tudo web" CERTO! Mas e se por algum motivo você estiver sem acesso a internet, sem o seu computador ou celular? Devemos pensar em todas as probabilidades.
+~~"Ah, Robson. Hoje em dia os sistemas são tudo web" CERTO! Mas e se por algum motivo você estiver sem acesso a internet, sem o seu computador ou celular? Devemos pensar em todas as probabilidades.~~
 
-"Se eu for em um computador da biblioteca, vou ter acesso a internet, logo, vou conseguir acessar um sistema web, tornando o Tolinbook inútil". Os computadores da biblioteca teriam acesso apenas ao sistema, ou seja, tudo que o usuário/aluno pode fazer no computador é usar o Tolinbook.
+~~"Se eu for em um computador da biblioteca, vou ter acesso a internet, logo, vou conseguir acessar um sistema web, tornando o Tolinbook inútil". Os computadores da biblioteca teriam acesso apenas ao sistema, ou seja, tudo que o usuário/aluno pode fazer no computador é usar o Tolinbook.~~
 
 E óbvio, poderia ter versões Web e Mobile.
 
