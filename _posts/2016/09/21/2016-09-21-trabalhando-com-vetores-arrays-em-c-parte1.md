@@ -10,7 +10,7 @@ categories:
 twitter_text: 'Vetores (arrays) em C'
 ---
 
-Após alguns dias fora, estou de volta — uma prova viva que nem sempre ressurreições acontecem em sete dias —
+Após alguns dias fora, estou de volta (uma prova viva que nem sempre ressurreições acontecem em sete dias).
 
 E já começo o post com um probleminha para resolvermos. Imagine a seguinte situação: precisamos desenvolver um sistema que leia o preço de quatro produtos de uma loja e depois mostre a sua média final. Bem, uma das maneiras seria fazer assim:
 
@@ -59,7 +59,7 @@ Logo, deu pra entender que sua estrutura é:
 <tipoDoVetor> nome [quantidade];
 {% endhighlight %}
 
-A primeira posição do vetor é o índice 0 (zero), ISSO MESMO. Pode até parecer estranho no começo, mas juro, depois se costuma:
+A primeira posição do vetor é o índice 0 (zero), ISSO MESMO. Pode até parecer estranho no começo, mas juro, depois se acostuma:
 
 + preco[0] – PRIMEIRA posição
 + preco[1] – SEGUNDA posição
@@ -99,11 +99,11 @@ int main()
 }
 {% endhighlight %}
 
-Poxa, mesmo com vetor o nosso código continua enorme, né não? 
+Poxa, mesmo com vetores o nosso código continua enorme, né não? 
 
-Mas fique tranquilo, vamos continuar reduzindo ele. Nos próximos posts , vou abordar laços de repetição, começando pelo FOR, usarei esse mesmo exemplo. E ah, algumas coisas a mais sobre vetores também. 
+Mas fique tranquilo, vamos continuar reduzindo ele. Nos próximos posts , vou abordar laços de repetição, começando pelo FOR, usarei esse mesmo exemplo. AHHHHH, algumas coisas a mais sobre vetores também. 
 
-Enquanto isso, deixo um pequeno tema para você. Coloque a seguinte string: **“APRENDI VETORES”** na terceira posição do vetor que usamos nesse tutorial. SIM, o vetor:
+Enquanto isso, deixo um pequeno tema para você. Tente adicionar a seguinte string: **“APRENDI VETORES”** na terceira posição do vetor que usamos nesse tutorial. SIM, o vetor:
 {% highlight c %}
 float preco[4];
 {% endhighlight %}
